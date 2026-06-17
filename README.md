@@ -1,17 +1,23 @@
-#📊 financial-document-management-rag  (FastAPI + PostgreSQL + FAISS)
+#📊 FINANCIAL-DOCUMENT-MANAGEMENT-RAG (FastAPI + PostgreSQL + FAISS)
 
 A backend system for managing financial documents with Role-Based Access Control (RBAC) and a Retrieval-Augmented Generation (RAG) pipeline using FAISS for semantic search.
 
 🚀 Features
+
+
 🔐 Authentication & Authorization
-User registration & login (JWT-based)
-Role-Based Access Control (RBAC)
-Roles: Admin, Financial Analyst, Auditor, Client
+
+    User registration & login (JWT-based)
+    Role-Based Access Control (RBAC)
+    Roles: Admin, Financial Analyst, Auditor, Client
+
+    
 📄 Document Management
-Upload financial documents (PDF)
-Store metadata (title, company, type)
-View, search, and delete documents
-Metadata-based filtering
+
+    Upload financial documents (PDF)
+    Store metadata (title, company, type)
+    View, search, and delete documents
+    Metadata-based filtering
 🧠 RAG (Retrieval-Augmented Generation)
 PDF text extraction
 Chunking + embedding (Sentence Transformers)
